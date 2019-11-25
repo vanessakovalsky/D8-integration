@@ -37,7 +37,7 @@ dossier template de votre thème et supprimer les régions inutiles
 TP2: Création de templates:
 - Créer un template pour votre pages d'accueil, qui n'affichera pas la region Sidebar
 - Créer un template pour les noeuds de type bateau et afficher l'ensemble des champs nécessaire
-les champs se trouve dans la maquette home.jpg présente dans le dossier maquettes de ce TP
+les champs se trouve dans la maquette https://app.moqups.com/yNkQ7nytUR/view/page/aa9df7b72 
 - Créer un template pour le terme de taxonomie de la page d'accueil qui affiche le port
 - Créer un template pour les blocs qui se trouve sur la page d'accueil
 - Créer un template pour la vue qui liste les bateaux 
