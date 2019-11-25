@@ -43,4 +43,39 @@ les champs se trouve dans la maquette home.jpg présente dans le dossier maquett
 - Créer un template pour la vue qui liste les bateaux 
 
 TP3 - Association de feuille de style
+- Créer une feuille ou des feuilles de styles en respectant l'architecture
+SMACSS dans votre theme pour mettre en forme les différents éléments du site
+- Une fois les fichiers créés, vous devez les déclarer sous forme de librairie
+à votre thème, et les inclures lorsque cela est nécessaire dans vos templates.
+
+TP4 - Définir des layouts
+- Définir des layouts d'affichage pour le type de contenu Bateau (pour afficher dans la vue liste des bateaux, 
+ainsi que dans les autres vues )
+- Définir un layout de modification d'un bateau, en n'affichant que les
+champs qu'un propriétaire peut modifier sur son bateau 
+- Créer les templates associés aux layout
+
+TP5- Gestion de la configuration
+- Créer des formats d'image:
+-- Home : 500px X 800px
+-- Icone: 40 X 40px
+- Exporter la configuration des formats d'images créés dans des fichiers yml
+- Supprimer les UUID des fichiers et mettre les fichiers dans le theme
+dans le dossier montheme/config/optionnal
+- Supprimer les formats d'images créés
+- Réinstaller le theme
+- Vérifier que les formats d'images soient bien importés
+
+TP6 - Javascript
+- Créer un script js dans le theme dans montheme/js/
+- Ce script doit permettre le comportement des flipbox 
+(afficher la description au survol de la souris)
+- Importer sur le template des flipblock le js des blocks
+correspondants
+
+TP7 - Responsive design
+- Déclarer les breakpoints du site
+- S'assurer que les css s'adaptent aux mobile et tablette
+- S'assurer que le menu se transforme en menu responsibe
+- S'assurer que les images s'adapte à la taille de l'écran de consulation
 
