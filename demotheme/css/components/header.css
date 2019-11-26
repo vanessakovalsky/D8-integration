@@ -1,0 +1,9 @@
+.block-system-branding-block {
+  width: 25%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.block-system-branding-block img {
+  max-width: 150px;
+}

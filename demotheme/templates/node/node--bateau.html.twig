@@ -103,8 +103,14 @@ node bateau
   {% endif %}
 
   <div{{ content_attributes.addClass('node__content') }}>
-    {{ dump(node) }}
+    {{ content }}
+    <div class="bateau-proprietaire">
+    Proprietaire :
+    <img src="{{ file_url(node.field_proprietaire.0.entity.user_picture.entity.uri.value) }}">
 
+    Nom : {{ node.field_proprietaire.0.entity.field_nom.0.value }}
+    Prénom : {{ node.field_proprietaire.0.entity.field_prenom.0.value }}
+    </div>
   </div>
 
 </article>

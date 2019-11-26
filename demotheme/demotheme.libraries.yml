@@ -22,3 +22,8 @@ global:
       css/layouts/layout.css: {}
     theme:
       css/theme/print.css: { media: print }
+
+new-library:
+  css:
+    demo: 
+      css/demo.css: {}
