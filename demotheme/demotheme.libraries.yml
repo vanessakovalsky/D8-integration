@@ -23,7 +23,18 @@ global:
     theme:
       css/theme/print.css: { media: print }
 
-new-library:
+flipblock:
+  js:
+    vendor/flip/jquery.flip.min.js: {}
+    js/flip.js: {}
+  dependencies:
+    - core/jquery
+
+jcarousel:
+  js: 
+    vendor/jcarousel/jquery.jcarousel.min.js: {}
+    js/jcarousel.js: {} 
   css:
-    demo: 
-      css/demo.css: {}
+    component:
+      css/components/jcarousel.css: {}
+

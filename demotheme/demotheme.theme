@@ -31,3 +31,9 @@ function demotheme_theme_suggestions_views_view_alter(array &$suggestions, array
     // based on their ID:
     $suggestions[] = sprintf('views_view__%s', $variables['view']->id());
 }
+
+function demotheme_theme_suggestions_block_alter(array &$suggestions, array $variables) {
+    if (isset($variables['elements']['content']['#block_content'])) {
+      array_splice($suggestions, 1, 0, 'block__' . $variables['elements']['content']['#block_content']->bundle());
+    }
+  }
