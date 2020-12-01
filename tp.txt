@@ -8,45 +8,8 @@ cette adresse : https://github.com/vanessakovalsky/D8-dev/tree/master/boatmanage
 - Cela vous permettra d'avoir la configuration faite et la structure de données
  pour réaliser le template de ce TP.
 
-TP1- Création d'un thème
-- Activer le debug de Twig : 
--- Dans sites/default copier le fichier default.services.yml en services.yml
--- Dans le fichier services.yml faites les modifications suivante dans la config twig : 
---- debug: true
---- auto_reload: true
---- cache: false
--- /!\ cela désactive uniquement le cache de twig mais certains fichiers reste mis en cache par drupal.
--- Pour désactiver le cache de drupal complètement : 
---- Dans sites copier le fichier example.settings.local et renommer la copie en settings.local
---- Dans le settings.php décommenter les lignes suivantes :
-if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-  include $app_root . '/' . $site_path . '/settings.local.php';
-}
-- Avec l'aide de Drush ou de la console, générer un thème qui s'appuie sur le thème parent CLassy
-- Modifier les regions du thèmes présents dans le montheme.info.yml pour ne laisser que les région suivante :
--- Header
--- Content
--- Sidebar
--- Footer
--- Menu
--- Breadcrumb
-- Avec l'aide du debugguer de twig pour trouver le template utiliser,
-trouver le template de la page qui déclare les régions, dupliquer le dans votre 
-dossier template de votre thème et supprimer les régions inutiles
 
-TP2: Création de templates:
-- Créer un template pour votre pages d'accueil, qui n'affichera pas la region Sidebar
-- Créer un template pour les noeuds de type bateau et afficher l'ensemble des champs nécessaire
-les champs se trouve dans la maquette https://app.moqups.com/yNkQ7nytUR/view/page/aa9df7b72 
-- Créer un template pour le terme de taxonomie de la page d'accueil qui affiche le port
-- Créer un template pour les blocs qui se trouve sur la page d'accueil
-- Créer un template pour la vue qui liste les bateaux 
 
-TP3 - Association de feuille de style
-- Créer une feuille ou des feuilles de styles en respectant l'architecture
-SMACSS dans votre theme pour mettre en forme les différents éléments du site
-- Une fois les fichiers créés, vous devez les déclarer sous forme de librairie
-à votre thème, et les inclures lorsque cela est nécessaire dans vos templates.
 
 TP4 - Définir des layouts
 - Définir des layouts d'affichage pour le type de contenu Bateau (pour afficher dans la vue liste des bateaux, 
