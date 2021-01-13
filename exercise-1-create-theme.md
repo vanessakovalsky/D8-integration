@@ -1,8 +1,18 @@
 # Exercice 1- Création d'un thème
 
+Cette série d'exercices a pour objectif de nous faire créer les différents templates nécessaire à notre site.
+Pour cela nous utiliserons les maquettes présentes ici : https://app.moqups.com/yNkQ7nytUR/view/page/aa9df7b72  
+
 Cet exercice a pour objectif :
 * d'activer le debug
 * de créer son premier thème
+
+## Pré-requis 
+* Installer un drupal vierge : https://www.drupal.org/docs/installing-drupal 
+* Télécharger et installer le module boatmanagement qui se trouve à 
+cette adresse : https://github.com/vanessakovalsky/D8-dev/tree/master/boatmanagement 
+-> Cela vous permettra d'avoir la configuration faite et la structure de données
+ pour réaliser le template de ce TP.
 
 
 ##  Activer le debug de Twig : 
